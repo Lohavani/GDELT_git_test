@@ -8,7 +8,7 @@ The project division is done into two parts.
 Abhinav Sharma - sc21as : Data extraction , transformation, load and feature engineering. Generating the datasets and creating a real-time dashboard using GDELT API 
 Lohavani Sevveral - sc21ls : 
 
-#### The directory Abhinav Sharma - sc21as consists of the following items.
+### The directory Abhinav Sharma - sc21as consists of the following items.
 1. Raw data file collection system : It is a data collection system developed for local machine to collect the medical protest event data from GDELT
 2. Jupyter notebooks
     1. Data Exploration and HMM : Contains the code for data exploration on the original data extracted from Google BigQuery of GDELT Event 2.0 Database
