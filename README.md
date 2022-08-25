@@ -3,6 +3,11 @@ The repository contains the code for Medical Protest Event Prediction on GDELT d
 
 The Project aim is to extract the data for medical unrest event, transform the data and load it to database. Then to apply datamodels to the generated dataset to classify the events as protest and non-protest causing events.
 
+The project division is done into two parts.
+
+Abhinav Sharma - sc21as : Data extraction , transformation, load and feature engineering. Generating the datasets and creating a real-time dashboard using GDELT API 
+Lohavani Sevveral - sc21ls : 
+
 ## The directory Abhinav Sharma - sc21as consists of the following items.
 1. Raw data file collection system : It is a data collection system developed for local machine to collect the medical protest event data from GDELT
 2. Jupyter notebooks
