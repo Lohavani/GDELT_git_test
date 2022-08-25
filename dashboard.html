@@ -1,0 +1,28 @@
+<html>
+</body>
+
+<h1 align = "center"> GDELT Real-Time Dashboard</h1>
+<h3 align ="center"> This is a real-time dashboard for the medical protest data captured by GDELT project.</h3>
+ 
+
+<table width="100%" height="100%">
+  <iframe src="https://api.gdeltproject.org/api/v2/geo/geo?query=(hospital OR medical OR protest)%20sourcelang:eng%20(theme:MEDICAL%20OR%20theme:GENERAL_HEALTH)&mode=PointData&timespan=1d" height="70%" width="100%" title="description"></iframe>
+
+  <tr>
+
+    <td><iframe src="https://api.gdeltproject.org/api/v2/doc/doc?query=(hospital OR medical OR protest)%20sourcelang:eng%20(theme:MEDICAL%20OR%20theme:GENERAL_HEALTH)&mode=ArtList&maxrecords=250&format=html&timespan=5d" height="100%" width="100%" title="description"></iframe></td>
+
+
+    <td><iframe src = "https://api.gdeltproject.org/api/v2/doc/doc?query=medical protest%20(theme:MEDICAL%20OR%20theme:GENERAL_HEALTH)&mode=ToneChart&maxrecords=250&format=html&timespan=1d" height="100%" width = "100%" title="tone"></iframe></td>
+  </tr>
+
+  	<td><iframe src = "https://api.gdeltproject.org/api/v2/doc/doc?query=medical protest%20(theme:MEDICAL%20OR%20theme:GENERAL_HEALTH)&mode=TimelineTone&timelinesmooth=0&format=html&timespan=1d&timezoom=yes" height="100%" width = "100%" title="tone"></iframe> </td>
+
+  	<td><iframe src = "https://api.gdeltproject.org/api/v2/doc/doc?query=medical protest%20(theme:MEDICAL%20OR%20theme:GENERAL_HEALTH)&mode=TimelineSourceCountry&timelinesmooth=0&format=html&timespan=1d&timezoom=yes" height="100%" width = "100%" title="tone"></iframe></td>
+
+  <tr>
+
+</table>
+</body>
+
+</html>
