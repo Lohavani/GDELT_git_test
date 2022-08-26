@@ -5,7 +5,8 @@ The Project aim is to extract the data for medical unrest event, transform the d
 
 The project division is done into two parts.
 
-Abhinav Sharma - sc21as : Data extraction , transformation, load and feature engineering. Generating the datasets and creating a real-time dashboard using GDELT API 
+Abhinav Sharma - sc21as : Data extraction , transformation, load and feature engineering. Generating the datasets and creating a real-time dashboard using GDELT API <br/>
+
 Lohavani Sevveral - sc21ls : 
 
 ### The directory Abhinav Sharma - sc21as consists of the following items.
