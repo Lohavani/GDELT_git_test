@@ -7,7 +7,7 @@ The project division is done into two parts.
 
 Abhinav Sharma - sc21as : Data extraction , transformation, load and feature engineering. Generating the datasets and creating a real-time dashboard using GDELT API <br/>
 
-Lohavani Sevveral - sc21ls : 
+Lohavani Sevverl - sc21ls : Data analysis, prediction and benchmarking of predicted results.
 
 ### The directory Abhinav Sharma - sc21as consists of the following items.
 1. Raw data file collection system : It is a data collection system developed for local machine to collect the medical protest event data from GDELT
